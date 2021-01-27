@@ -34,7 +34,7 @@ exports.CRUDServer = class CRUDServer {
       });
       console.log("Database connection successful");
     } catch (err) {
-      process.exit(1);
+      // process.exit(1);
     }
   }
 
@@ -56,7 +56,7 @@ exports.CRUDServer = class CRUDServer {
   }
 
   initListening() {
-    this.app.listen((process.env.PORT = 3000), () => {
+    this.app.listen((process.env.PORT = 3002), () => {
       console.log("Started listening on port", process.env.PORT);
     });
   }
