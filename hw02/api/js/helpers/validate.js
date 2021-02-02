@@ -7,4 +7,3 @@ exports.validate = function validate(scheme) {
     next();
   };
 };
-
