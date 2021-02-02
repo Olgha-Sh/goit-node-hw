@@ -1,0 +1,29 @@
+{
+  "name": "goit-node-hw-03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon api/server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olgha-Sh/goit-node-hw-03.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olgha-Sh/goit-node-hw-03/issues"
+  },
+  "homepage": "https://github.com/Olgha-Sh/goit-node-hw-03#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.3.0",
+    "mongoose": "^5.11.12",
+    "nodemon": "^2.0.7",
+    "uuid": "^8.3.0"
+  }
+}
